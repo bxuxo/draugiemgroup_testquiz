@@ -26,8 +26,8 @@ Mapīte "api":
 util.php -> fails priekš datubāzes klasēm. Ir viena klase, kas saucas "access", kura ir priekš datubāzes konstruktora, un otra klase kas saucas "quiz", kas extendo access, un tā ir domāta priekš datubāzes darbībām, kā saņemt visus quizus utml.
 api.php -> šis ir API fails priekš quiz lapas. Tas tiek izmantots lai paņemtu un ieliktu datus tabulās.
 
-Mapīte "react":
-Šajā mapītē ir visi React faili, kas savelk kopā visu projektu un kur viss tiek zīmēts.
-React iemācijos salīdzinoši nesen, tāpēc lūdzu piedodiet ja ir izmantoti kādi slikti piemēri.
+Pārējie faili:
+React projekta faili, izņemot "node_modules", jo tas aizņem ļoti daudz vietu un tie mums abiem ir kopīgi.
 
 Šis projekts man grūtības nesagādāja, un esmu gatavs mācīties to, ko nezinu vai ko vajag uzlabot.
+Izmantoju PHP, JSX, HTML, CSS, un React kā frameworku.
