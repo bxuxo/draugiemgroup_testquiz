@@ -1,0 +1,10 @@
+.container-finish {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+h1, p {
+    word-break: break-word;
+    text-align: center;
+}

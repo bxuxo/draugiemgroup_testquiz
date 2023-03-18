@@ -1,0 +1,31 @@
+.container-FrontPage {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    padding: 5px;
+    justify-content: center;
+    align-items: center;
+}
+.container-FrontPage > * {
+    width: clamp(150px, 100%, 250px);
+    box-sizing: border-box;
+}
+.container-FrontPage > p {
+    word-wrap: break-word;
+    text-align: center;
+}
+
+.container-input-with-counter {
+    position: relative;
+    display: flex;
+}
+.container-input-with-counter > input {
+    width: 100%;
+}
+.container-input-with-counter > label {
+    position: absolute;
+    right: 2px;
+    margin-top: 7px;
+    font-size: 10px;
+}
+
